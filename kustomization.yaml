@@ -1,1 +1,10 @@
 
+apiVersion: kustomize.config.k8s.io/v1beta1
+kind: Kustomization
+resources:
+- deployment.yaml
+- service.yaml
+- route.yaml
+images:
+- name: shclub/edu12-frontend
+  newTag: "20230322042001"
