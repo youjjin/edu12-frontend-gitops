@@ -3,7 +3,7 @@ kind: Route
 metadata:
   name: frontend
 spec:
-  host: frontend-edu30.apps.211-34-231-82.nip.io
+  host: frontend-edu3.apps.211-43-12-210.nip.io
   port:
     targetPort: 80
 #  tls:
